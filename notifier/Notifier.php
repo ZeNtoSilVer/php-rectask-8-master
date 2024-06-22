@@ -1,4 +1,4 @@
 <?php 
 
 require_once 'Observer.php';
-class Notifier extends Observer {} 
+interface Notifier extends Observer {} 

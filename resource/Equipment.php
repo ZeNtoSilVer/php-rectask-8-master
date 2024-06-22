@@ -1,7 +1,7 @@
 <?php
 require_once 'Resource.php';
 
-class Room implements Resource {
+class Equipment implements Resource {
     private $id;
     private $name;
 
@@ -22,7 +22,7 @@ class Room implements Resource {
         return [
             'id' => $this->id,
             'name' => $this->name,
-            'type' => 'room'
+            'type' => 'equipment'
         ];
     }
 }

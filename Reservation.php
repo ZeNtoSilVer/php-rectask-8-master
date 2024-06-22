@@ -35,4 +35,13 @@ class Reservation {
     public function setEndTime($endTime) {
         $this->endTime = $endTime;
     }
+
+    public function getAll() {
+        return [
+            'id' => $this->id,
+            'resource' => $this->resource->getAll(),
+            'startTime' => $this->startTime,
+            'endTime' => $this->endTime
+        ];
+    }
 }

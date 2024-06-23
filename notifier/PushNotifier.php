@@ -6,6 +6,6 @@ class PushNotifier implements Notifier
 {
     public function update($action, $resource)
     {
-        echo 'PushNotifier: ' . $action . '-' . json_encode($resource) . ' | ';
+        echo 'PushNotifier: ' . $action . '-' . json_encode($resource) . ' | ' . "\n";
     }
 }

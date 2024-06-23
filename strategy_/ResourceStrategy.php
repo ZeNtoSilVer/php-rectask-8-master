@@ -1,6 +1,6 @@
 <?php 
 
 interface ResourceStrategy {
-   ///todo 
+   public function create($data);
 }
 
